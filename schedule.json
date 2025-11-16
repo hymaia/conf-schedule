@@ -1,0 +1,504 @@
+[
+  {
+    "id": "opening-keynote-future-of-data-ai",
+    "conferenceId": "forward-data-2025",
+    "title": "Opening Keynote: The Future of Data & AI",
+    "fromTime": "2025-11-16 09:00",
+    "toTime": "2025-11-16 09:30",
+    "type": "keynote",
+    "kind": "keynote",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "An inspiring keynote on how data and AI are reshaping organizations, products and teams.",
+    "metadata": {
+      "topic": {
+        "label": "Stratégie"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "claire.dupont@hymaia.com",
+        "name": "Claire Dupont"
+      }
+    ]
+  },
+  {
+    "id": "building-modern-data-platforms",
+    "conferenceId": "forward-data-2025",
+    "title": "Building Modern Data Platforms",
+    "fromTime": "2025-11-16 09:45",
+    "toTime": "2025-11-16 10:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Architectures and patterns to build reliable, evolutive data platforms.",
+    "metadata": {
+      "topic": {
+        "label": "Data"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "thomas.leroy@hymaia.com",
+        "name": "Thomas Leroy"
+      }
+    ]
+  },
+  {
+    "id": "mlops-from-notebooks-to-production",
+    "conferenceId": "forward-data-2025",
+    "title": "MLOps: From Notebooks to Production",
+    "fromTime": "2025-11-16 09:45",
+    "toTime": "2025-11-16 10:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "How to industrialize machine learning models with CI/CD, testing and observability.",
+    "metadata": {
+      "topic": {
+        "label": "Engineering"
+      },
+      "level": "Advanced"
+    },
+    "speakers": [
+      {
+        "id": "amina.khalil@hymaia.com",
+        "name": "Amina Khalil"
+      }
+    ]
+  },
+  {
+    "id": "designing-ai-products-users-love",
+    "conferenceId": "forward-data-2025",
+    "title": "Designing AI Products Users Love",
+    "fromTime": "2025-11-16 09:45",
+    "toTime": "2025-11-16 10:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Product and UX patterns to integrate AI without losing user trust.",
+    "metadata": {
+      "topic": {
+        "label": "Produit"
+      },
+      "level": "Beginner"
+    },
+    "speakers": [
+      {
+        "id": "julien.martin@hymaia.com",
+        "name": "Julien Martin"
+      }
+    ]
+  },
+
+  {
+    "id": "coffee-break-morning",
+    "conferenceId": "forward-data-2025",
+    "title": "Coffee Break",
+    "fromTime": "2025-11-16 10:30",
+    "toTime": "2025-11-16 10:45",
+    "type": "keynote",
+    "kind": "keynote",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Coffee, snacks and hallway conversations.",
+    "metadata": {
+      "topic": {
+        "label": "Other"
+      },
+      "level": "All levels"
+    },
+    "speakers": []
+  },
+
+  {
+    "id": "real-time-analytics-streaming",
+    "conferenceId": "forward-data-2025",
+    "title": "Real-time Analytics with Streaming",
+    "fromTime": "2025-11-16 10:45",
+    "toTime": "2025-11-16 11:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "How to process events in real time and serve low-latency analytics.",
+    "metadata": {
+      "topic": {
+        "label": "Data"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "paul.moreau@hymaia.com",
+        "name": "Paul Moreau"
+      }
+    ]
+  },
+  {
+    "id": "governing-ai-use-cases",
+    "conferenceId": "forward-data-2025",
+    "title": "Governing AI Use Cases at Scale",
+    "fromTime": "2025-11-16 10:45",
+    "toTime": "2025-11-16 11:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "How to prioritize, govern and de-risk AI use cases in large organizations.",
+    "metadata": {
+      "topic": {
+        "label": "Stratégie"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "marie.bernard@hymaia.com",
+        "name": "Marie Bernard"
+      }
+    ]
+  },
+  {
+    "id": "from-dashboards-to-decision-products",
+    "conferenceId": "forward-data-2025",
+    "title": "From Dashboards to Decision Products",
+    "fromTime": "2025-11-16 10:45",
+    "toTime": "2025-11-16 11:30",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "How to move beyond reporting into actionable decision-making tools.",
+    "metadata": {
+      "topic": {
+        "label": "Produit"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "leo.renard@hymaia.com",
+        "name": "Léo Renard"
+      }
+    ]
+  },
+
+  {
+    "id": "panel-building-data-ai-teams",
+    "conferenceId": "forward-data-2025",
+    "title": "Panel: Building Effective Data & AI Teams",
+    "fromTime": "2025-11-16 11:30",
+    "toTime": "2025-11-16 12:15",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Leaders share how they structure teams, roles and collaboration models.",
+    "metadata": {
+      "topic": {
+        "label": "Stratégie"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "claire.dupont@hymaia.com",
+        "name": "Claire Dupont"
+      },
+      {
+        "id": "amina.khalil@hymaia.com",
+        "name": "Amina Khalil"
+      }
+    ]
+  },
+
+  {
+    "id": "lunch-break",
+    "conferenceId": "forward-data-2025",
+    "title": "Lunch Break",
+    "fromTime": "2025-11-16 12:15",
+    "toTime": "2025-11-16 13:30",
+    "type": "keynote",
+    "kind": "keynote",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Buffet lunch and informal discussions with speakers and attendees.",
+    "metadata": {
+      "topic": {
+        "label": "Other"
+      },
+      "level": "All levels"
+    },
+    "speakers": []
+  },
+
+  {
+    "id": "lightning-talks-data-engineering",
+    "conferenceId": "forward-data-2025",
+    "title": "Lightning Talks: Data Engineering in Practice",
+    "fromTime": "2025-11-16 13:30",
+    "toTime": "2025-11-16 14:00",
+    "type": "lightning",
+    "kind": "talk",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Short talks on real-world data engineering war stories.",
+    "metadata": {
+      "topic": {
+        "label": "Data"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "thomas.leroy@hymaia.com",
+        "name": "Thomas Leroy"
+      },
+      {
+        "id": "paul.moreau@hymaia.com",
+        "name": "Paul Moreau"
+      }
+    ]
+  },
+  {
+    "id": "lightning-talks-mlops",
+    "conferenceId": "forward-data-2025",
+    "title": "Lightning Talks: MLOps & Observability",
+    "fromTime": "2025-11-16 13:30",
+    "toTime": "2025-11-16 14:00",
+    "type": "lightning",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Incidents, outages and fixes in ML systems in production.",
+    "metadata": {
+      "topic": {
+        "label": "Engineering"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "amina.khalil@hymaia.com",
+        "name": "Amina Khalil"
+      }
+    ]
+  },
+  {
+    "id": "lightning-talks-product-ai",
+    "conferenceId": "forward-data-2025",
+    "title": "Lightning Talks: Product & AI Experiments",
+    "fromTime": "2025-11-16 13:30",
+    "toTime": "2025-11-16 14:00",
+    "type": "lightning",
+    "kind": "talk",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Rapid-fire stories of AI features that worked… or didn’t.",
+    "metadata": {
+      "topic": {
+        "label": "Produit"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "julien.martin@hymaia.com",
+        "name": "Julien Martin"
+      }
+    ]
+  },
+
+  {
+    "id": "afternoon-track-data-contracts",
+    "conferenceId": "forward-data-2025",
+    "title": "Data Contracts & Domain-oriented Modeling",
+    "fromTime": "2025-11-16 14:00",
+    "toTime": "2025-11-16 14:45",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "How data contracts and DDD help align data with business domains.",
+    "metadata": {
+      "topic": {
+        "label": "Data"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "paul.moreau@hymaia.com",
+        "name": "Paul Moreau"
+      }
+    ]
+  },
+  {
+    "id": "afternoon-track-rag-in-production",
+    "conferenceId": "forward-data-2025",
+    "title": "RAG in Production: Lessons from the Trenches",
+    "fromTime": "2025-11-16 14:00",
+    "toTime": "2025-11-16 14:45",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Practical insights on making Retrieval-Augmented Generation actually useful.",
+    "metadata": {
+      "topic": {
+        "label": "Engineering"
+      },
+      "level": "Advanced"
+    },
+    "speakers": [
+      {
+        "id": "amina.khalil@hymaia.com",
+        "name": "Amina Khalil"
+      }
+    ]
+  },
+  {
+    "id": "afternoon-track-measuring-ai-impact",
+    "conferenceId": "forward-data-2025",
+    "title": "Measuring the Impact of AI on Product KPIs",
+    "fromTime": "2025-11-16 14:00",
+    "toTime": "2025-11-16 14:45",
+    "type": "talk",
+    "kind": "talk",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Experimentation and metrics to prove AI impact on real business KPIs.",
+    "metadata": {
+      "topic": {
+        "label": "Produit"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "leo.renard@hymaia.com",
+        "name": "Léo Renard"
+      }
+    ]
+  },
+
+  {
+    "id": "afternoon-coffee-break",
+    "conferenceId": "forward-data-2025",
+    "title": "Coffee Break",
+    "fromTime": "2025-11-16 14:45",
+    "toTime": "2025-11-16 15:00",
+    "type": "keynote",
+    "kind": "keynote",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Short break to recharge before the workshops.",
+    "metadata": {
+      "topic": {
+        "label": "Other"
+      },
+      "level": "All levels"
+    },
+    "speakers": []
+  },
+
+  {
+    "id": "workshop-metrics-catalog",
+    "conferenceId": "forward-data-2025",
+    "title": "Workshop: Building a Metrics Catalog",
+    "fromTime": "2025-11-16 15:00",
+    "toTime": "2025-11-16 16:00",
+    "type": "workshop",
+    "kind": "talk",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Hands-on session to identify, define and document key metrics.",
+    "metadata": {
+      "topic": {
+        "label": "Data"
+      },
+      "level": "Intermediate"
+    },
+    "speakers": [
+      {
+        "id": "thomas.leroy@hymaia.com",
+        "name": "Thomas Leroy"
+      }
+    ]
+  },
+  {
+    "id": "workshop-mlops-observability",
+    "conferenceId": "forward-data-2025",
+    "title": "Workshop: MLOps & Observability",
+    "fromTime": "2025-11-16 15:00",
+    "toTime": "2025-11-16 16:00",
+    "type": "workshop",
+    "kind": "talk",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Instrumenting ML systems with proper logs, metrics and alerts.",
+    "metadata": {
+      "topic": {
+        "label": "Engineering"
+      },
+      "level": "Advanced"
+    },
+    "speakers": [
+      {
+        "id": "amina.khalil@hymaia.com",
+        "name": "Amina Khalil"
+      }
+    ]
+  },
+  {
+    "id": "workshop-ai-product-discovery",
+    "conferenceId": "forward-data-2025",
+    "title": "Workshop: AI Product Discovery",
+    "fromTime": "2025-11-16 15:00",
+    "toTime": "2025-11-16 16:00",
+    "type": "workshop",
+    "kind": "talk",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "A structured approach to discovering AI use cases with real value.",
+    "metadata": {
+      "topic": {
+        "label": "Produit"
+      },
+      "level": "Beginner"
+    },
+    "speakers": [
+      {
+        "id": "julien.martin@hymaia.com",
+        "name": "Julien Martin"
+      }
+    ]
+  },
+  {
+    "id": "closing-keynote-lessons-from-field",
+    "conferenceId": "forward-data-2025",
+    "title": "Closing Keynote: Lessons from the Field",
+    "fromTime": "2025-11-16 16:15",
+    "toTime": "2025-11-16 17:00",
+    "type": "keynote",
+    "kind": "keynote",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Concrete lessons from real-world data & AI projects: what worked, what failed and why.",
+    "metadata": {
+      "topic": {
+        "label": "Stratégie"
+      },
+      "level": "All levels"
+    },
+    "speakers": [
+      {
+        "id": "claire.dupont@hymaia.com",
+        "name": "Claire Dupont"
+      }
+    ]
+  },
+  {
+    "id": "closing-drinks-networking",
+    "conferenceId": "forward-data-2025",
+    "title": "Closing Drinks & Networking",
+    "fromTime": "2025-11-16 17:00",
+    "toTime": "2025-11-16 18:00",
+    "type": "break",
+    "kind": "break",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Drinks and informal conversations to close the day.",
+    "metadata": {
+      "topic": {
+        "label": "Other"
+      },
+      "level": "All levels"
+    },
+    "speakers": []
+  }
+]
