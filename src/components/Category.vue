@@ -30,20 +30,20 @@ export default {
   border-radius: $radius;
 }
 
-.Stratégie {
+.aiml {
   background: $strategy;
 }
 
-.Experience {
+.governance {
   background: $experience;
 }
 
-.Sécurité, .Engineering, .Craft, .Mobile, .Cloud {
+.strategy {
   background: $engineering;
   color: #FFFFFF;
 }
 
-.Agile, .Produit, .Green {
+.platform {
   background: $product;
   color: #FFFFFF;
 }

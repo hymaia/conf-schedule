@@ -33,7 +33,7 @@
     },
     async mounted() {
       try {
-           const response = await axios.get<ScheduleEvent[]>(`https://www.googleapis.com/storage/v1/b/hymaia-conf-database/o/schedule9.json?alt=media`);
+           const response = await axios.get<ScheduleEvent[]>(`https://www.googleapis.com/storage/v1/b/hymaia-conf-database/o/schedule5.json?alt=media`);
         if (response.status === 200) {
           this.schedule = response.data;
           this.day = response.data[0].fromTime;
@@ -48,6 +48,7 @@
 </script>
 
 <style lang="scss">
+@import "styles/variables";
   @font-face {
     font-family: 'Futura Next';
     font-style: normal;
@@ -62,7 +63,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #E6E6E6;
+    background-color: $tertiary;
     font-family: 'Futura Next', serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;

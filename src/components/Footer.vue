@@ -4,12 +4,7 @@
       Apps Hymaïa.
     </div>
     <div class="copyright">
-      © {{ new Date().getFullYear() }} Publicis Sapient. <a
-      href="https://github.com/xebia-france/schedule-view-conf-companion/issues"
-      target="_blank"
-      class="issues"
-    >
-      Questions?</a>
+      © {{ new Date().getFullYear() }} Publicis Sapient.
     </div>
   </footer>
 </template>

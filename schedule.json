@@ -1,504 +1,909 @@
 [
   {
-    "id": "opening-keynote-future-of-data-ai",
-    "conferenceId": "forward-data-2025",
-    "title": "Opening Keynote: The Future of Data & AI",
-    "fromTime": "2025-11-16 09:00",
-    "toTime": "2025-11-16 09:30",
-    "type": "keynote",
+    "id": "intro-accueil",
     "kind": "keynote",
+    "title": "Intro & Accueil",
+    "fromTime": "2025-11-18 09:00",
+    "toTime": "2025-11-18 09:30",
     "room": "Salle Adenauer - 500 personnes",
-    "summary": "An inspiring keynote on how data and AI are reshaping organizations, products and teams.",
+    "summary": "Ouverture de la journée, présentation du programme, des speakers et des règles pratiques, animée par le MC Edouard.",
     "metadata": {
       "topic": {
-        "label": "Stratégie"
+        "label": "Strategy"
       },
-      "level": "All levels"
+      "level": {
+        "emoji": "🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "claire.dupont@hymaia.com",
-        "name": "Claire Dupont"
+        "id": "edouard.mc@example.com",
+        "name": "Edouard (MC)"
       }
     ]
   },
   {
-    "id": "building-modern-data-platforms",
-    "conferenceId": "forward-data-2025",
-    "title": "Building Modern Data Platforms",
-    "fromTime": "2025-11-16 09:45",
-    "toTime": "2025-11-16 10:30",
-    "type": "talk",
-    "kind": "talk",
-    "room": "Gulbenkian - 80 personnes",
-    "summary": "Architectures and patterns to build reliable, evolutive data platforms.",
-    "metadata": {
-      "topic": {
-        "label": "Data"
-      },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "thomas.leroy@hymaia.com",
-        "name": "Thomas Leroy"
-      }
-    ]
-  },
-  {
-    "id": "mlops-from-notebooks-to-production",
-    "conferenceId": "forward-data-2025",
-    "title": "MLOps: From Notebooks to Production",
-    "fromTime": "2025-11-16 09:45",
-    "toTime": "2025-11-16 10:30",
-    "type": "talk",
-    "kind": "talk",
+    "id": "ai-ethics-across-borders",
+    "kind": "keynote",
+    "title": "Keynote – AI Ethics Across Borders: Values, Data, and Cultural Context",
+    "fromTime": "2025-11-18 09:30",
+    "toTime": "2025-11-18 09:55",
     "room": "Salle Adenauer - 500 personnes",
-    "summary": "How to industrialize machine learning models with CI/CD, testing and observability.",
+    "summary": "Giada Pistilli explore comment les systèmes d’IA incarnent des valeurs culturelles spécifiques, les risques de biais liés aux langues dominantes et les enjeux éthiques globaux de l’entraînement des LLM.",
     "metadata": {
       "topic": {
-        "label": "Engineering"
+        "label": "Governance"
       },
-      "level": "Advanced"
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "amina.khalil@hymaia.com",
-        "name": "Amina Khalil"
+        "id": "giada.pistilli@example.com",
+        "name": "Giada Pistilli"
       }
     ]
   },
   {
-    "id": "designing-ai-products-users-love",
-    "conferenceId": "forward-data-2025",
-    "title": "Designing AI Products Users Love",
-    "fromTime": "2025-11-16 09:45",
-    "toTime": "2025-11-16 10:30",
-    "type": "talk",
+    "id": "great-data-engineering-reset",
     "kind": "talk",
+    "title": "The Great Data Engineering Reset: From Pipelines to Agents and Beyond",
+    "fromTime": "2025-11-18 10:00",
+    "toTime": "2025-11-18 10:25",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Joe Reis montre comment l’IA redistribue les cartes du data engineering, en passant de pipelines centrés reporting à des architectures orientées agents et action automatique.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "joe.reis@example.com",
+        "name": "Joe Reis"
+      }
+    ]
+  },
+  {
+    "id": "criteo-predictive-bidding",
+    "kind": "talk",
+    "title": "Not a Sign from the Universe, Just a Retargeted Ad: How Criteo Uses Deep Learning to Power Its Predictive Bidding Engine",
+    "fromTime": "2025-11-18 10:00",
+    "toTime": "2025-11-18 10:25",
     "room": "Salon Honorat - 200 personnes",
-    "summary": "Product and UX patterns to integrate AI without losing user trust.",
+    "summary": "Olga Petrova détaille comment Criteo entraîne et déploie des modèles de deep learning à grande échelle pour prédire les actions utilisateurs et optimiser les enchères en temps réel.",
     "metadata": {
       "topic": {
-        "label": "Produit"
+        "label": "AI & ML"
       },
-      "level": "Beginner"
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "julien.martin@hymaia.com",
-        "name": "Julien Martin"
+        "id": "olga.petrova@example.com",
+        "name": "Olga Petrova"
       }
     ]
   },
-
   {
-    "id": "coffee-break-morning",
-    "conferenceId": "forward-data-2025",
-    "title": "Coffee Break",
-    "fromTime": "2025-11-16 10:30",
-    "toTime": "2025-11-16 10:45",
-    "type": "keynote",
-    "kind": "keynote",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Coffee, snacks and hallway conversations.",
+    "id": "building-internal-ai-academy",
+    "kind": "talk",
+    "title": "Building Your Internal AI Academy",
+    "fromTime": "2025-11-18 10:00",
+    "toTime": "2025-11-18 10:25",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Comment concevoir un programme interne de formation à l’IA, avec des exercices métiers concrets, une roadmap d’adoption et un réseau d’ambassadeurs pour faire monter l’organisation en compétence.",
     "metadata": {
       "topic": {
-        "label": "Other"
+        "label": "Strategy"
       },
-      "level": "All levels"
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "emmanuel.martin-chave@example.com",
+        "name": "Emmanuel Martin-Chave"
+      }
+    ]
+  },
+  {
+    "id": "getting-ready-for-ai",
+    "kind": "talk",
+    "title": "Getting Ready for AI – From Excitement to Value",
+    "fromTime": "2025-11-18 10:30",
+    "toTime": "2025-11-18 10:55",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Tiankai Feng présente le framework FOREST pour passer du buzzword à la création de valeur, en alignant technologie, culture et organisation autour de l’IA.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "tiankai.feng@example.com",
+        "name": "Tiankai Feng"
+      }
+    ]
+  },
+  {
+    "id": "fusion-produits-modeles-meetic",
+    "kind": "talk",
+    "title": "Fusion de produits, fusion de modèles : comment unifier les intelligences d’apps différentes",
+    "fromTime": "2025-11-18 10:30",
+    "toTime": "2025-11-18 10:55",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Retour d’expérience sur la fusion de stacks ML au sein de Match Group/Meetic : comparer des modèles issus d’apps différentes, gérer le cold start et unifier les pipelines.",
+    "metadata": {
+      "topic": {
+        "label": "AI & ML"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "sihem.kime@example.com",
+        "name": "Sihem Kime"
+      }
+    ]
+  },
+  {
+    "id": "break-morning-1100-adenauer",
+    "kind": "keynote",
+    "title": "Break",
+    "fromTime": "2025-11-18 11:00",
+    "toTime": "2025-11-18 11:30",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Pause café et networking.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
     },
     "speakers": []
   },
-
   {
-    "id": "real-time-analytics-streaming",
-    "conferenceId": "forward-data-2025",
-    "title": "Real-time Analytics with Streaming",
-    "fromTime": "2025-11-16 10:45",
-    "toTime": "2025-11-16 11:30",
-    "type": "talk",
+    "id": "we-have-been-automated",
     "kind": "talk",
-    "room": "Gulbenkian - 80 personnes",
-    "summary": "How to process events in real time and serve low-latency analytics.",
-    "metadata": {
-      "topic": {
-        "label": "Data"
-      },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "paul.moreau@hymaia.com",
-        "name": "Paul Moreau"
-      }
-    ]
-  },
-  {
-    "id": "governing-ai-use-cases",
-    "conferenceId": "forward-data-2025",
-    "title": "Governing AI Use Cases at Scale",
-    "fromTime": "2025-11-16 10:45",
-    "toTime": "2025-11-16 11:30",
-    "type": "talk",
-    "kind": "talk",
+    "title": "We Have Been Automated, What to Do in 2026?",
+    "fromTime": "2025-11-18 11:30",
+    "toTime": "2025-11-18 11:55",
     "room": "Salle Adenauer - 500 personnes",
-    "summary": "How to prioritize, govern and de-risk AI use cases in large organizations.",
+    "summary": "Christophe Blefari explore comment l’IA change le travail des data professionals et quelles trajectoires de carrière adopter dans un monde de plus en plus automatisé.",
     "metadata": {
       "topic": {
-        "label": "Stratégie"
+        "label": "Platform"
       },
-      "level": "All levels"
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "marie.bernard@hymaia.com",
-        "name": "Marie Bernard"
+        "id": "christophe.blefari@example.com",
+        "name": "Christophe Blefari"
       }
     ]
   },
   {
-    "id": "from-dashboards-to-decision-products",
-    "conferenceId": "forward-data-2025",
-    "title": "From Dashboards to Decision Products",
-    "fromTime": "2025-11-16 10:45",
-    "toTime": "2025-11-16 11:30",
-    "type": "talk",
+    "id": "beyond-the-dashboard",
     "kind": "talk",
+    "title": "Beyond the Dashboard: Architecting the Agentic Future of Analytics",
+    "fromTime": "2025-11-18 11:30",
+    "toTime": "2025-11-18 11:55",
     "room": "Salon Honorat - 200 personnes",
-    "summary": "How to move beyond reporting into actionable decision-making tools.",
+    "summary": "Comment Mirakl transforme une équipe BI classique en équipe d’analytics engineers construisant des architectures événementielles et agentiques pour livrer des insights proactifs.",
     "metadata": {
       "topic": {
-        "label": "Produit"
+        "label": "Strategy"
       },
-      "level": "Intermediate"
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "leo.renard@hymaia.com",
-        "name": "Léo Renard"
+        "id": "samuel.baker@example.com",
+        "name": "Samuel Baker"
       }
     ]
   },
-
   {
-    "id": "panel-building-data-ai-teams",
-    "conferenceId": "forward-data-2025",
-    "title": "Panel: Building Effective Data & AI Teams",
-    "fromTime": "2025-11-16 11:30",
-    "toTime": "2025-11-16 12:15",
-    "type": "talk",
+    "id": "from-postgres-to-ducklake",
     "kind": "talk",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Leaders share how they structure teams, roles and collaboration models.",
+    "title": "From Postgres to a Minimalist Lakehouse: The Next Step with DuckLake",
+    "fromTime": "2025-11-18 11:30",
+    "toTime": "2025-11-18 11:55",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Mehdi Ouazza présente DuckLake, un format de table ouvert minimaliste pour dépasser les limites analytiques de Postgres sans la complexité d’un gros lakehouse.",
     "metadata": {
       "topic": {
-        "label": "Stratégie"
+        "label": "Platform"
       },
-      "level": "All levels"
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
     },
     "speakers": [
       {
-        "id": "claire.dupont@hymaia.com",
-        "name": "Claire Dupont"
-      },
-      {
-        "id": "amina.khalil@hymaia.com",
-        "name": "Amina Khalil"
+        "id": "mehdi.ouazza@example.com",
+        "name": "Mehdi Ouazza"
       }
     ]
   },
-
   {
-    "id": "lunch-break",
-    "conferenceId": "forward-data-2025",
+    "id": "ai-changing-standard-bi",
+    "kind": "talk",
+    "title": "How AI Is Changing the Standard for BI: Making Data Accessible, Actionable, Aligned",
+    "fromTime": "2025-11-18 12:00",
+    "toTime": "2025-11-18 12:25",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Chez Photoroom, l’IA est un multiplicateur de BI : accès rapide aux données, recommandations contextualisées et métriques alignées aux décisions produit.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "juliette.duizabo@example.com",
+        "name": "Juliette Duizabo"
+      }
+    ]
+  },
+  {
+    "id": "analytics-coe-decathlon",
+    "kind": "talk",
+    "title": "Empowering a Large Scale Analytics Organization with an Analytics Center of Excellence",
+    "fromTime": "2025-11-18 12:00",
+    "toTime": "2025-11-18 12:25",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Comment Decathlon a structuré un Analytics Center of Excellence pour aligner 30 équipes domaine, standardiser plateformes et outillage et amplifier l’impact de 300 analytics.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "hugo.palmer@example.com",
+        "name": "Hugo Palmer"
+      }
+    ]
+  },
+  {
+    "id": "duckdb-un-an-production",
+    "kind": "talk",
+    "title": "Exploiter la puissance de DuckDB : Un an de production avec des dizaines de To de données",
+    "fromTime": "2025-11-18 12:00",
+    "toTime": "2025-11-18 12:25",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Retour d’expérience sur l’utilisation de DuckDB pour traiter des dizaines de téraoctets de données, avec les raisons du choix, les gains et les défis rencontrés.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "cyril.vlaminck@example.com",
+        "name": "Cyril Vlaminck"
+      },
+      {
+        "id": "pierre.courvoisier@example.com",
+        "name": "Pierre Courvoisier"
+      }
+    ]
+  },
+  {
+    "id": "ai-agentic-platform-dailymotion",
+    "kind": "talk",
+    "title": "Building an AI Agentic Platform to Empower Marketers & Advertisers",
+    "fromTime": "2025-11-18 12:30",
+    "toTime": "2025-11-18 12:55",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Dailymotion présente une plateforme multi-agents alimentée par l’IA pour générer, enrichir et optimiser en continu les contenus marketing à partir des données maison.",
+    "metadata": {
+      "topic": {
+        "label": "AI & ML"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "marie-laure.lecompt@example.com",
+        "name": "Marie-Laure Lecompt"
+      },
+      {
+        "id": "nicolas.maurice@example.com",
+        "name": "Nicolas Maurice"
+      }
+    ]
+  },
+  {
+    "id": "product-approach-data-doctolib",
+    "kind": "talk",
+    "title": "Our Path to Implement a Product Approach to Data (at Doctolib)",
+    "fromTime": "2025-11-18 12:30",
+    "toTime": "2025-11-18 12:55",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Arthur Delpierre Coudert raconte la transition d’une approche projet vers une approche produit pour les data chez Doctolib, avec impacts sur l’organisation et la roadmap.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "arthur.delpierre@example.com",
+        "name": "Arthur Delpierre Coudert"
+      }
+    ]
+  },
+  {
+    "id": "impact-assistants-ia-achat",
+    "kind": "talk",
+    "title": "L'impact des assistants IA conversationnels dans les décisions d'achat : résultat d'étude et benchmark des solutions GEO du marché",
+    "fromTime": "2025-11-18 12:30",
+    "toTime": "2025-11-18 12:55",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Présentation d’une étude Toluna x STLAR sur l’impact des assistants IA sur les décisions d’achat et d’un benchmark des solutions GEO pour le marketing et le SEO de demain.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "chloe.duteil@example.com",
+        "name": "Chloé Duteil"
+      }
+    ]
+  },
+  {
+    "id": "lunch-break-adenauer",
+    "kind": "keynote",
     "title": "Lunch Break",
-    "fromTime": "2025-11-16 12:15",
-    "toTime": "2025-11-16 13:30",
-    "type": "keynote",
-    "kind": "keynote",
+    "fromTime": "2025-11-18 13:00",
+    "toTime": "2025-11-18 13:40",
     "room": "Salle Adenauer - 500 personnes",
-    "summary": "Buffet lunch and informal discussions with speakers and attendees.",
+    "summary": "Pause déjeuner conviviale, networking et visite des stands.",
     "metadata": {
       "topic": {
-        "label": "Other"
+        "label": "Strategy"
       },
-      "level": "All levels"
+      "level": {
+        "emoji": "🌶️"
+      }
     },
     "speakers": []
   },
-
   {
-    "id": "lightning-talks-data-engineering",
-    "conferenceId": "forward-data-2025",
-    "title": "Lightning Talks: Data Engineering in Practice",
-    "fromTime": "2025-11-16 13:30",
-    "toTime": "2025-11-16 14:00",
-    "type": "lightning",
-    "kind": "talk",
-    "room": "Gulbenkian - 80 personnes",
-    "summary": "Short talks on real-world data engineering war stories.",
-    "metadata": {
-      "topic": {
-        "label": "Data"
-      },
-      "level": "All levels"
-    },
-    "speakers": [
-      {
-        "id": "thomas.leroy@hymaia.com",
-        "name": "Thomas Leroy"
-      },
-      {
-        "id": "paul.moreau@hymaia.com",
-        "name": "Paul Moreau"
-      }
-    ]
-  },
-  {
-    "id": "lightning-talks-mlops",
-    "conferenceId": "forward-data-2025",
-    "title": "Lightning Talks: MLOps & Observability",
-    "fromTime": "2025-11-16 13:30",
-    "toTime": "2025-11-16 14:00",
-    "type": "lightning",
-    "kind": "talk",
+    "id": "lightning-adenauer",
+    "kind": "lightning",
+    "title": "Lightning Talks (x3)",
+    "fromTime": "2025-11-18 13:40",
+    "toTime": "2025-11-18 14:00",
     "room": "Salle Adenauer - 500 personnes",
-    "summary": "Incidents, outages and fixes in ML systems in production.",
+    "summary": "Session de trois lightning talks successifs autour de la data et de l’IA.",
     "metadata": {
       "topic": {
-        "label": "Engineering"
+        "label": "AI & ML"
       },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "amina.khalil@hymaia.com",
-        "name": "Amina Khalil"
+      "level": {
+        "emoji": "🌶️🌶️"
       }
-    ]
-  },
-  {
-    "id": "lightning-talks-product-ai",
-    "conferenceId": "forward-data-2025",
-    "title": "Lightning Talks: Product & AI Experiments",
-    "fromTime": "2025-11-16 13:30",
-    "toTime": "2025-11-16 14:00",
-    "type": "lightning",
-    "kind": "talk",
-    "room": "Salon Honorat - 200 personnes",
-    "summary": "Rapid-fire stories of AI features that worked… or didn’t.",
-    "metadata": {
-      "topic": {
-        "label": "Produit"
-      },
-      "level": "All levels"
-    },
-    "speakers": [
-      {
-        "id": "julien.martin@hymaia.com",
-        "name": "Julien Martin"
-      }
-    ]
-  },
-
-  {
-    "id": "afternoon-track-data-contracts",
-    "conferenceId": "forward-data-2025",
-    "title": "Data Contracts & Domain-oriented Modeling",
-    "fromTime": "2025-11-16 14:00",
-    "toTime": "2025-11-16 14:45",
-    "type": "talk",
-    "kind": "talk",
-    "room": "Gulbenkian - 80 personnes",
-    "summary": "How data contracts and DDD help align data with business domains.",
-    "metadata": {
-      "topic": {
-        "label": "Data"
-      },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "paul.moreau@hymaia.com",
-        "name": "Paul Moreau"
-      }
-    ]
-  },
-  {
-    "id": "afternoon-track-rag-in-production",
-    "conferenceId": "forward-data-2025",
-    "title": "RAG in Production: Lessons from the Trenches",
-    "fromTime": "2025-11-16 14:00",
-    "toTime": "2025-11-16 14:45",
-    "type": "talk",
-    "kind": "talk",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Practical insights on making Retrieval-Augmented Generation actually useful.",
-    "metadata": {
-      "topic": {
-        "label": "Engineering"
-      },
-      "level": "Advanced"
-    },
-    "speakers": [
-      {
-        "id": "amina.khalil@hymaia.com",
-        "name": "Amina Khalil"
-      }
-    ]
-  },
-  {
-    "id": "afternoon-track-measuring-ai-impact",
-    "conferenceId": "forward-data-2025",
-    "title": "Measuring the Impact of AI on Product KPIs",
-    "fromTime": "2025-11-16 14:00",
-    "toTime": "2025-11-16 14:45",
-    "type": "talk",
-    "kind": "talk",
-    "room": "Salon Honorat - 200 personnes",
-    "summary": "Experimentation and metrics to prove AI impact on real business KPIs.",
-    "metadata": {
-      "topic": {
-        "label": "Produit"
-      },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "leo.renard@hymaia.com",
-        "name": "Léo Renard"
-      }
-    ]
-  },
-
-  {
-    "id": "afternoon-coffee-break",
-    "conferenceId": "forward-data-2025",
-    "title": "Coffee Break",
-    "fromTime": "2025-11-16 14:45",
-    "toTime": "2025-11-16 15:00",
-    "type": "keynote",
-    "kind": "keynote",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Short break to recharge before the workshops.",
-    "metadata": {
-      "topic": {
-        "label": "Other"
-      },
-      "level": "All levels"
     },
     "speakers": []
   },
-
   {
-    "id": "workshop-metrics-catalog",
-    "conferenceId": "forward-data-2025",
-    "title": "Workshop: Building a Metrics Catalog",
-    "fromTime": "2025-11-16 15:00",
-    "toTime": "2025-11-16 16:00",
-    "type": "workshop",
-    "kind": "talk",
-    "room": "Gulbenkian - 80 personnes",
-    "summary": "Hands-on session to identify, define and document key metrics.",
-    "metadata": {
-      "topic": {
-        "label": "Data"
-      },
-      "level": "Intermediate"
-    },
-    "speakers": [
-      {
-        "id": "thomas.leroy@hymaia.com",
-        "name": "Thomas Leroy"
-      }
-    ]
-  },
-  {
-    "id": "workshop-mlops-observability",
-    "conferenceId": "forward-data-2025",
-    "title": "Workshop: MLOps & Observability",
-    "fromTime": "2025-11-16 15:00",
-    "toTime": "2025-11-16 16:00",
-    "type": "workshop",
-    "kind": "talk",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Instrumenting ML systems with proper logs, metrics and alerts.",
-    "metadata": {
-      "topic": {
-        "label": "Engineering"
-      },
-      "level": "Advanced"
-    },
-    "speakers": [
-      {
-        "id": "amina.khalil@hymaia.com",
-        "name": "Amina Khalil"
-      }
-    ]
-  },
-  {
-    "id": "workshop-ai-product-discovery",
-    "conferenceId": "forward-data-2025",
-    "title": "Workshop: AI Product Discovery",
-    "fromTime": "2025-11-16 15:00",
-    "toTime": "2025-11-16 16:00",
-    "type": "workshop",
-    "kind": "talk",
+    "id": "lightning-honorat",
+    "kind": "lightning",
+    "title": "Lightning Talks (x3)",
+    "fromTime": "2025-11-18 13:40",
+    "toTime": "2025-11-18 14:00",
     "room": "Salon Honorat - 200 personnes",
-    "summary": "A structured approach to discovering AI use cases with real value.",
+    "summary": "Session de trois lightning talks orientés plateforme et analytics.",
     "metadata": {
       "topic": {
-        "label": "Produit"
+        "label": "Platform"
       },
-      "level": "Beginner"
-    },
-    "speakers": [
-      {
-        "id": "julien.martin@hymaia.com",
-        "name": "Julien Martin"
+      "level": {
+        "emoji": "🌶️🌶️"
       }
-    ]
-  },
-  {
-    "id": "closing-keynote-lessons-from-field",
-    "conferenceId": "forward-data-2025",
-    "title": "Closing Keynote: Lessons from the Field",
-    "fromTime": "2025-11-16 16:15",
-    "toTime": "2025-11-16 17:00",
-    "type": "keynote",
-    "kind": "keynote",
-    "room": "Salle Adenauer - 500 personnes",
-    "summary": "Concrete lessons from real-world data & AI projects: what worked, what failed and why.",
-    "metadata": {
-      "topic": {
-        "label": "Stratégie"
-      },
-      "level": "All levels"
-    },
-    "speakers": [
-      {
-        "id": "claire.dupont@hymaia.com",
-        "name": "Claire Dupont"
-      }
-    ]
-  },
-  {
-    "id": "closing-drinks-networking",
-    "conferenceId": "forward-data-2025",
-    "title": "Closing Drinks & Networking",
-    "fromTime": "2025-11-16 17:00",
-    "toTime": "2025-11-16 18:00",
-    "type": "break",
-    "kind": "break",
-    "room": "Salon Honorat - 200 personnes",
-    "summary": "Drinks and informal conversations to close the day.",
-    "metadata": {
-      "topic": {
-        "label": "Other"
-      },
-      "level": "All levels"
     },
     "speakers": []
+  },
+  {
+    "id": "lightning-gulbenkian",
+    "kind": "lightning",
+    "title": "Lightning Talks (x3)",
+    "fromTime": "2025-11-18 13:40",
+    "toTime": "2025-11-18 14:00",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Session de trois lightning talks centrés gouvernance et qualité de données.",
+    "metadata": {
+      "topic": {
+        "label": "Governance"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": []
+  },
+  {
+    "id": "whats-next-after-data",
+    "kind": "talk",
+    "title": "What's Next After Data?",
+    "fromTime": "2025-11-18 14:00",
+    "toTime": "2025-11-18 14:25",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Table ronde sur les trajectoires de carrière après la data & l’IA, avec des leaders ayant élargi ou changé leur scope récemment.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "robin.conquet@example.com",
+        "name": "Robin Conquet"
+      },
+      {
+        "id": "paul.marcombes@example.com",
+        "name": "Paul Marcombes"
+      },
+      {
+        "id": "isaure.lagon@example.com",
+        "name": "Isaure"
+      }
+    ]
+  },
+  {
+    "id": "sovereign-llm-inference",
+    "kind": "talk",
+    "title": "Sovereign LLM Inference at Scale",
+    "fromTime": "2025-11-18 14:00",
+    "toTime": "2025-11-18 14:25",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Xuan-Son Nguyen présente la plateforme souveraine hybride de BNP Paribas pour servir plus de 150 cas d’usage de GenAI à grande échelle.",
+    "metadata": {
+      "topic": {
+        "label": "AI & ML"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "xuan-son.nguyen@example.com",
+        "name": "Xuan-Son Nguyen"
+      }
+    ]
+  },
+  {
+    "id": "ai-transformation-leboncoin",
+    "kind": "talk",
+    "title": "AI Transformation at leboncoin",
+    "fromTime": "2025-11-18 14:30",
+    "toTime": "2025-11-18 14:55",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Julien Jouhault explique comment leboncoin fait de l’IA un moteur d’entreprise, en combinant innovation produit, transformation interne et culture du changement.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "julien.jouhault@example.com",
+        "name": "Julien Jouhault"
+      }
+    ]
+  },
+  {
+    "id": "designing-data-infra-genai",
+    "kind": "talk",
+    "title": "Designing Data Infrastructure in the Age of Generative AI",
+    "fromTime": "2025-11-18 14:30",
+    "toTime": "2025-11-18 14:55",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Robert Pack discute de l’architecture data nécessaire pour servir efficacement les agents et modèles GenAI à l’échelle, en s’appuyant sur Spark, Iceberg et un catalogue unifié.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "robert.pack@example.com",
+        "name": "Robert Pack"
+      }
+    ]
+  },
+  {
+    "id": "governance-that-pays-back",
+    "kind": "talk",
+    "title": "Governance That Pays Back: Rethinking Value in Data Strategy",
+    "fromTime": "2025-11-18 14:30",
+    "toTime": "2025-11-18 14:55",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Table ronde sur la gouvernance des données comme levier de ROI, avec un focus sur les modèles à réinventer à l’ère de l’IA et des M&A.",
+    "metadata": {
+      "topic": {
+        "label": "Governance"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "claire.genoux@example.com",
+        "name": "Claire Genoux"
+      },
+      {
+        "id": "boris.dorado@example.com",
+        "name": "Boris Dorado"
+      },
+      {
+        "id": "gaelle.seret@example.com",
+        "name": "Gaëlle Seret"
+      },
+      {
+        "id": "xuan-son.nguyen-panel@example.com",
+        "name": "Xuan-Son Nguyen"
+      }
+    ]
+  },
+  {
+    "id": "talk-hymaia-simone",
+    "kind": "talk",
+    "title": "Talk Hymaïa – Simone Civetta",
+    "fromTime": "2025-11-18 15:00",
+    "toTime": "2025-11-18 15:25",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Un retour d’expérience Hymaïa sur la mise en place de produits data & IA chez les clients, entre stratégie, delivery et accompagnement du changement.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "simone.civetta@example.com",
+        "name": "Simone Civetta"
+      }
+    ]
+  },
+  {
+    "id": "ab-tasty-user-facing-analytics",
+    "kind": "talk",
+    "title": "Powering User-Facing Analytics at Scale: How AB Tasty Serves Thousands of Experiments Daily",
+    "fromTime": "2025-11-18 15:00",
+    "toTime": "2025-11-18 15:25",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Comment AB Tasty alimente des analytics embarqués temps réel pour des milliers d’expériences, grâce à une couche sémantique maison et une plateforme data scalable.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "herve.froc@example.com",
+        "name": "Herve Froc"
+      },
+      {
+        "id": "sergey.chernyakov@example.com",
+        "name": "Sergey Chernyakov"
+      }
+    ]
+  },
+  {
+    "id": "from-analytics-to-ai-datadog",
+    "kind": "talk",
+    "title": "From Analytics to AI: Evolving a Data Platform to Power AI at Scale",
+    "fromTime": "2025-11-18 15:30",
+    "toTime": "2025-11-18 15:55",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Jean-Matthieu Saponaro explique comment la plateforme analytics de Datadog a évolué vers un lakehouse Iceberg et des workflows Ray pour supporter les workloads d’AI engineers.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "jean-matthieu.saponaro@example.com",
+        "name": "Jean-Matthieu Saponaro"
+      }
+    ]
+  },
+  {
+    "id": "mcp-at-scale",
+    "kind": "talk",
+    "title": "MCP At Scale: Why Every Organization Needs a MCP Strategy",
+    "fromTime": "2025-11-18 15:30",
+    "toTime": "2025-11-18 15:55",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Yann Jouanin décortique le Model Context Protocol et montre comment le déployer à grande échelle tout en gérant sécurité, alignement et évaluation des LLM.",
+    "metadata": {
+      "topic": {
+        "label": "Governance"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "yann.jouanin@example.com",
+        "name": "Yann Jouanin"
+      }
+    ]
+  },
+  {
+    "id": "omni-panel-ai-products",
+    "kind": "talk",
+    "title": "Table ronde Omni – Building Differentiation with AI-Powered Data Products",
+    "fromTime": "2025-11-18 15:30",
+    "toTime": "2025-11-18 15:55",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Discussion animée par Colin Zima sur la création de produits data différenciants avec de l’analytics embarqué et une couche sémantique robuste.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "colin.zima@example.com",
+        "name": "Colin Zima"
+      }
+    ]
+  },
+  {
+    "id": "break-afternoon-1600-adenauer",
+    "kind": "keynote",
+    "title": "Break",
+    "fromTime": "2025-11-18 16:00",
+    "toTime": "2025-11-18 16:30",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Pause et échanges informels avant le dernier bloc de sessions.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
+    },
+    "speakers": []
+  },
+  {
+    "id": "mlops-llmops-maturity",
+    "kind": "talk",
+    "title": "MLOps & LLMOps – 7 Steps to Level Up Your MLOps (and LLMOps) Maturity",
+    "fromTime": "2025-11-18 16:30",
+    "toTime": "2025-11-18 16:55",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Maria Vechtomova présente sept étapes concrètes pour passer de l’expérimentation ML/LLM à des systèmes observables, fiables et industrialisés.",
+    "metadata": {
+      "topic": {
+        "label": "AI & ML"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "maria.vechtomova@example.com",
+        "name": "Maria Vechtomova"
+      }
+    ]
+  },
+  {
+    "id": "ai-for-self-service-bi",
+    "kind": "talk",
+    "title": "AI for Self-Service BI: The Good, the Bad, the Misunderstood – Lessons from the Field",
+    "fromTime": "2025-11-18 16:30",
+    "toTime": "2025-11-18 16:55",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Naim Kosayyer partage des retours de déploiements de chatbots BI sur données réelles, couvrant RAG, métadonnées, évaluation et gestion des hallucinations.",
+    "metadata": {
+      "topic": {
+        "label": "AI & ML"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "naim.kosayyer@example.com",
+        "name": "Naim Kosayyer"
+      }
+    ]
+  },
+  {
+    "id": "row-level-lineage-carbonfact",
+    "kind": "talk",
+    "title": "Row Level Lineage at Carbonfact",
+    "fromTime": "2025-11-18 16:30",
+    "toTime": "2025-11-18 16:55",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Max Halford et Alexis Cruveiller présentent un système de lignage au niveau ligne pour tracer l’origine de chaque donnée dans des rapports environnementaux audités.",
+    "metadata": {
+      "topic": {
+        "label": "Platform"
+      },
+      "level": {
+        "emoji": "🌶️🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "max.halford@example.com",
+        "name": "Max Halford"
+      },
+      {
+        "id": "alexis.cruveiller@example.com",
+        "name": "Alexis Cruveiller"
+      }
+    ]
+  },
+  {
+    "id": "nervous-system-of-work",
+    "kind": "talk",
+    "title": "The Nervous System of Work",
+    "fromTime": "2025-11-18 17:00",
+    "toTime": "2025-11-18 17:25",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Eevamaija Virtanen propose une métaphore neuro-inspirée de la transformation data, en voyant l’architecture comme un système nerveux régulant signaux, surcharge et cohérence.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "eevamaija.virtanen@example.com",
+        "name": "Eevamaija Virtanen"
+      }
+    ]
+  },
+  {
+    "id": "entre-fomo-et-paralysie-strategique",
+    "kind": "talk",
+    "title": "Entre FOMO, obsolescence et paralysie stratégique : comment construire des produits data à l’ère des GenAI ?",
+    "fromTime": "2025-11-18 17:00",
+    "toTime": "2025-11-18 17:25",
+    "room": "Salon Honorat - 200 personnes",
+    "summary": "Christelle Marfaing propose un regard historique et pratique pour concevoir une stratégie data durable sans se perdre dans la course aux outils GenAI.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "christelle.marfaing@example.com",
+        "name": "Christelle Marfaing"
+      }
+    ]
+  },
+  {
+    "id": "risk-based-data-quality",
+    "kind": "talk",
+    "title": "Test Smarter, Not Harder: Risk-Based Data Quality Without Pipeline Paralysis",
+    "fromTime": "2025-11-18 17:00",
+    "toTime": "2025-11-18 17:25",
+    "room": "Gulbenkian - 80 personnes",
+    "summary": "Jeremy Chia et Justina Šakalytė décrivent une stratégie de tests dbt basée sur le risque pour améliorer la qualité tout en respectant les SLAs et en réduisant la fatigue d’alertes.",
+    "metadata": {
+      "topic": {
+        "label": "Governance"
+      },
+      "level": {
+        "emoji": "🌶️🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "jeremy.chia@example.com",
+        "name": "Jeremy Chia"
+      },
+      {
+        "id": "justina.sakalyte@example.com",
+        "name": "Justina Šakalytė"
+      }
+    ]
+  },
+  {
+    "id": "ending-keynote",
+    "kind": "keynote",
+    "title": "Ending Keynote – Inventing the Next Decade of Data & AI",
+    "fromTime": "2025-11-18 17:30",
+    "toTime": "2025-11-18 18:00",
+    "room": "Salle Adenauer - 500 personnes",
+    "summary": "Clôture de la journée : synthèse des grands apprentissages, perspectives sur les 10 prochaines années de Data & IA et remerciements des organisateurs.",
+    "metadata": {
+      "topic": {
+        "label": "Strategy"
+      },
+      "level": {
+        "emoji": "🌶️"
+      }
+    },
+    "speakers": [
+      {
+        "id": "edouard.mc-closing@example.com",
+        "name": "Edouard (MC)"
+      }
+    ]
   }
 ]

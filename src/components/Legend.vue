@@ -1,10 +1,9 @@
 <template>
   <div class="legend">
-    <span class="letter strategy">S</span>
-    <span class="letter product">P</span>
-    <span class="letter experience">E</span>
-    <span class="letter engineering">E</span>
-    <span class="letter data">D</span>
+    <span class="letter strategy">AI & ML</span>
+    <span class="letter product">Platform</span>
+    <span class="letter experience">Governance</span>
+    <span class="letter engineering">Strategy</span>
   </div>
 </template>
 
@@ -35,7 +34,7 @@ export default {
 
   &.product {
     background: $product;
-    color: #FFFFFF;
+    color: #f66b54;
   }
 
   &.experience {
@@ -44,12 +43,7 @@ export default {
 
   &.engineering {
     background: $engineering;
-    color: #FFFFFF;
-  }
-
-  &.data {
-    background: $data;
-    color: #FFFFFF;
+    color: #360717;
   }
 }
 </style>

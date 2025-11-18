@@ -23,23 +23,24 @@
 </script>
 
 <style scoped lang="scss">
-  .header {
+@import "../../styles/variables";
+.header {
     background-color: #FFFFFF;
     width: 100%;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 0;
 
     &__logo {
-      max-width: 1500px;
+      max-width: 2000px;
       width: 100%;
     }
 
     &__banner {
-      margin-top: 20px;
+      margin-top: -5px;
       height: 40px;
-      background-color: #b2b2b2;
+      background-color: $secondary;
       vertical-align: middle;
       text-align: center;
       font-weight: 600;

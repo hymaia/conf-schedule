@@ -32,7 +32,7 @@ export default Vue.extend({
   props: ['schedule'],
   data() {
     return {
-      ratio: 2.6,
+      ratio: 4.2,
       width: 230,
       nowBarOffset: 10,
       nowBarUpdaterInterval: null
